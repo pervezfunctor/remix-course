@@ -1,0 +1,45 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "[typescript][javascript][typescriptreact][javascriptreact][json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "eslint.enable": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.surveys.enabled": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "USE_GITIGNORE": true
+  },
+
+  "search.exclude": {
+    "**/.build": true,
+    "**/.cache": true,
+    "**/.next": true,
+    "**/common/temp": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/.history": true
+  },
+
+  "coverage-gutters.coverageReportFileName": "coverage/**/lcov.info",
+  "testing.automaticallyOpenPeekView": "never"
+}
