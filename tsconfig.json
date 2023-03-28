@@ -1,5 +1,10 @@
 {
-  "include": ["remix.env.d.ts", "./app/**/*.ts", "./app/**/*.tsx"],
+  "include": [
+    "remix.env.d.ts",
+    "./app/**/*.ts",
+    "./app/**/*.tsx",
+    "./prisma/seed.ts"
+  ],
   "compilerOptions": {
     "noEmit": true,
     "importHelpers": true,

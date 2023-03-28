@@ -1,5 +1,6 @@
 export * from './iter'
 export * from './operators'
 export * from './pipe'
+export * from './prisma'
 export * from './spec'
 export * from './utils'
