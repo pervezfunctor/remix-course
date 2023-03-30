@@ -6,12 +6,13 @@
     "github.vscode-pull-request-github",
     "humao.rest-client",
     "mhutchie.git-graph",
-    "Orta.vscode-twoslash-queries",
+    "orta.vscode-twoslash-queries",
     "prisma.prisma",
     "ryanluker.vscode-coverage-gutters",
     "streetsidesoftware.code-spell-checker",
     "wayou.vscode-todo-highlight",
     "zenclabs.previewjs",
-    "zixuanchen.vitest-explorer"
+    "zixuanchen.vitest-explorer",
+    "meganrogge.template-string-converter"
   ]
 }
