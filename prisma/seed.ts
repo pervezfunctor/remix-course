@@ -2,7 +2,11 @@ import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
-async function main() {}
+async function main() {
+  await prisma.task.create({
+    data: { title: 'Learn Next.js', completed: false },
+  })
+}
 
 main()
   .then(async () => {
