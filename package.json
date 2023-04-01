@@ -14,7 +14,7 @@
     "cov:dev": "vitest watch --coverage",
     "types": "tsc --noEmit -p .",
     "types:dev": "tsc --noEmit -p . --watch",
-    "ci": "turbo types lint test",
+    "cd": "turbo types lint test",
     "fmt": "pnpm prettier --write --ignore-unknown app",
     "prepare": "husky install",
     "db:types": "pnpm prisma generate",
